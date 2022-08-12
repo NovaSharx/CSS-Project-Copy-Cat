@@ -1,0 +1,28 @@
+body {
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#container {
+    background-color: rgb(182, 155, 122);
+    width: 1200px;
+}
+
+/*####### HEADER #######*/
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#main_nav {
+    
+}
+#main_nav ul {
+    display: flex;
+}
+#main_nav li {
+    display: inline-block;
+}
