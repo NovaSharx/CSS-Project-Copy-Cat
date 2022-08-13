@@ -97,6 +97,9 @@ main {
 .blog-data iframe {
     width: 100%;
 }
+.blog-image {
+    width: 100%;
+}
 .blog-footer {
     background-color: black;
 }
