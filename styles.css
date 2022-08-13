@@ -1,28 +1,61 @@
 body {
-    background-color: tan;
-    display: flex;
-    justify-content: center;
     margin: 0;
+    padding-top: 4em;
 }
 
 #container {
-    background-color: rgb(182, 155, 122);
-    width: 1200px;
+    width: 700px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*####### HEADER #######*/
-
-#logo {
-    display: flex;
-    justify-content: center;
+#promo-image {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-width: 700px;
+    min-height: 500px;
+    object-fit: cover;
 }
-
-#main_nav {
+.logo h1 {
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    line-height: 75%;
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+    background: -webkit-linear-gradient(90deg, rgba(81,226,110,1) 0%, rgba(53,209,249,1) 25%, rgba(249,53,132,1) 50%, rgba(249,159,53,1) 75%, rgba(198,40,214,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
     
 }
-#main_nav ul {
+#main-nav ul {
+    padding: 0;
     display: flex;
+    justify-content: space-between
 }
-#main_nav li {
+#main-nav li {
     display: inline-block;
+    min-width: 75px;
+    padding: 0.3em 1em;
+    background-color: black;
+    border: 1px solid;
+    text-align: center;
 }
+#main-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7em;
+}
+#main-nav #home {
+    background-color: rgb(255, 166, 0);
+}
+
+/*####### MAIN #######*/
