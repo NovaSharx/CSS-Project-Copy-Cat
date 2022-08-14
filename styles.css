@@ -152,6 +152,57 @@ main {
     font-weight: normal;
 }
 
+#section-list {
+
+}
 .search-field {
     display: flex;
+}
+.search-field input {
+    display: block;
+    width: 100%
+}
+.search-field i {
+    padding: 0.2em;
+    color: white;
+    background-color: black;
+}
+
+.aside-section {
+    margin-top: 0.5em;
+    border: 1px solid;
+}
+.aside-title {
+    color: white;
+    background-color: black;
+}
+.aside-title h4 {
+    margin: 0;
+    padding: 0.2em;
+}
+.aside-content {
+    padding: 0.3em 0.4em;
+    background-color: white;
+}
+
+.featured-image-box img {
+    object-fit: cover;
+    width: 200px;
+    height: 74px;
+}
+.featured-image-box img:hover {
+    cursor: pointer;
+}
+
+#feature-1 {
+    object-position: 0px 0px;
+}
+#feature-2 {
+    object-position: 0px -78px;
+}
+#feature-3 {
+    object-position: 0px -160px;
+}
+#feature-4 {
+    object-position: 0px -242px;
 }
