@@ -124,6 +124,9 @@ main {
     margin: auto;
     padding: 0.5em 0em;
 }
+.blog-image:hover {
+    cursor: pointer;
+}
 .blog-afterthought {
     padding-top: 0.5em;
 }
@@ -292,12 +295,15 @@ main {
 /*####### FOOTER #######*/
 
 footer {
-    height: 500px;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
     background-color: black;
 }
 
 .footer-logo h1 {
+    margin: 0.5em 0em 0em 0em;
     font-size: 3em;
     font-weight: 800;
     text-align: center;
@@ -306,10 +312,28 @@ footer {
 
 .footer-logo a {
     text-decoration: none;
-    color: black;
-    background: -webkit-linear-gradient(90deg, rgba(81, 226, 110, 1) 0%, rgba(53, 209, 249, 1) 25%, rgba(249, 53, 132, 1) 50%, rgba(249, 159, 53, 1) 75%, rgba(198, 40, 214, 1) 100%);
+    color: white;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: #ccc;
+}
+
+#footer-nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+#footer-nav li {
+    display: inline-block;
+}
+#footer-nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+#footer-nav a:hover {
+    text-decoration: underline;
 }
