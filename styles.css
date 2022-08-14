@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-    width: 700px;
+    width: 800px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,21 +12,30 @@ body {
 /*####### HEADER #######*/
 
 #promo-image {
-    z-index: -1;
+    z-index: -2;
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
-    min-width: 700px;
-    min-height: 500px;
+    min-width: 800px;
+    min-height: 600px;
     object-fit: cover;
+}
+
+#promo-image-taper {
+    z-index: -1;
+    position: absolute;
+    top: 300px;
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
 }
 
 .logo h1 {
     font-size: 3em;
     font-weight: 800;
     text-align: center;
-    line-height: 75%;
+    line-height: 80%;
 }
 
 .logo a {
@@ -41,6 +50,7 @@ body {
 }
 
 #main-nav ul {
+    margin: 0.5em 0em;
     padding: 0;
     display: flex;
     justify-content: space-between
@@ -48,7 +58,7 @@ body {
 
 #main-nav li {
     display: inline-block;
-    min-width: 75px;
+    min-width: 90px;
     padding: 0.3em 1em;
     background-color: black;
     border: 1px solid;
@@ -87,23 +97,57 @@ main {
     margin: 0;
 }
 .blog-heading {
+    padding: 0.5em;
     background-color: black;
     color: white;
+}
+.blog-heading p {
+    font-size: 0.8em;
+    padding-top: 0.3em;
 }
 .blog-data {
     background-color: white;
     padding: 0.5em;
 }
+.blog-media {
+    width: 100%
+}
 .blog-data iframe {
     width: 100%;
+    padding: 0.5em 0em;
 }
 .blog-image {
-    width: 100%;
+    display: block;
+    width: 95%;
+    margin: auto;
+    padding: 0.5em 0em;
+}
+.blog-afterthought {
+    padding-top: 0.5em;
+}
+.blog-afterthought q {
+    display: block;
+    padding: 0em 1.5em;
+}
+.blog-afterthought a {
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+}
+.blog-afterthought i {
+    color: rgb(255, 166, 0);
+    font-size: 0.6em;
 }
 .blog-footer {
+    display: flex;
+    align-items: center;
     background-color: black;
 }
-.blog-footer h5 {
+.blog-footer i {
+    color: red;
+}
+.blog-comments {
+    padding: 0.3em;
     color: white;
     font-weight: normal;
 }
