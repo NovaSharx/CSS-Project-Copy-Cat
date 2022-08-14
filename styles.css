@@ -234,6 +234,36 @@ main {
     cursor: pointer;
 }
 
+.week-headline {
+    display: flex;
+    max-width: 247px;
+}
+.week-headlines-image-box img {
+    object-fit: cover;
+    height: 51px;
+    width: 60px;
+    
+}
+.week-headlines-image-box img:hover {
+    cursor: pointer;
+}
+#week-headline-img-1 {
+    object-position: 0px -6px;
+}
+#week-headline-img-2 {
+    object-position: 0px -65px;
+}
+#week-headline-img-3 {
+    object-position: 0px -124px;
+}
+
+.week-headlines-title {
+    font-size: 0.8em;
+}
+.week-headlines-title:hover {
+    cursor: pointer;
+}
+
 #aside-blog-archive select {
     width: 100%;
     padding: 0.3em 0em;
