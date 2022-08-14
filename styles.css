@@ -9,7 +9,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /*####### HEADER #######*/
 
 #promo-image {
@@ -91,75 +90,101 @@ main {
 .blog-posts {
     width: 810px;
 }
+
 .blog-section {
     border: 1px solid;
     margin-bottom: 0.5em;
 }
+
 .blog-section p, .blog-posts h3, .blog-posts h5 {
     margin: 0;
 }
+
 .blog-heading {
     padding: 0.5em;
     background-color: black;
     color: white;
 }
+
 .blog-heading p {
     font-size: 0.8em;
     padding-top: 0.3em;
 }
+
 .blog-data {
     background-color: white;
     padding: 0.5em;
 }
+
 .blog-media {
     width: 100%
 }
+
 .blog-data iframe {
     width: 100%;
     padding: 0.5em 0em;
 }
+
 .blog-image {
     display: block;
     width: 95%;
     margin: auto;
     padding: 0.5em 0em;
 }
+
 .blog-image:hover {
     cursor: pointer;
 }
+
 .blog-afterthought {
     padding-top: 0.5em;
 }
+
 .blog-afterthought q {
     display: block;
     padding: 0em 1.5em;
 }
+
 .blog-afterthought a {
     text-decoration: none;
     color: #E07400;;
     font-weight: bold;
 }
+
 .blog-afterthought i {
     color: #E07400;;
     font-size: 0.6em;
 }
+
+.blog-afterthought i:hover {
+    cursor: pointer;
+}
+
 .blog-footer {
     display: flex;
     align-items: center;
     background-color: black;
 }
+
 .blog-footer i {
     color: red;
 }
+
+.blog-footer i:hover {
+    cursor: pointer;
+}
+
 .blog-comments {
     padding: 0.3em;
     color: white;
     font-weight: normal;
 }
+
 .older-posts-btn {
     margin: 0.8em 0em;
     text-align: right;
 }
+
 .older-posts-btn a {
     padding: 0.8em 1.5em;
     border: 1px solid;
@@ -169,18 +194,20 @@ main {
     font-size: 0.7em;
     font-weight: bold;
 }
+
 .older-posts-btn a:hover {
     background-color: #E07400;
 }
 
-
 .search-field {
     display: flex;
 }
+
 .search-field input {
     display: block;
     width: 100%
 }
+
 .search-field i {
     padding: 0.2em;
     color: white;
@@ -191,14 +218,17 @@ main {
     margin-top: 0.5em;
     border: 1px solid;
 }
+
 .aside-title {
     color: white;
     background-color: black;
 }
+
 .aside-title h4 {
     margin: 0;
     padding: 0.2em;
 }
+
 .aside-content {
     padding: 0.3em 0.4em;
     background-color: white;
@@ -209,6 +239,7 @@ main {
     width: 100%;
     height: 92px;
 }
+
 .featured-image-box img:hover {
     cursor: pointer;
 }
@@ -233,6 +264,7 @@ main {
     color: #E07400;
     text-decoration: underline;
 }
+
 #aside-supportsat20 p:hover {
     cursor: pointer;
 }
@@ -241,15 +273,18 @@ main {
     display: flex;
     max-width: 247px;
 }
+
 .week-headlines-image-box img {
     object-fit: cover;
     height: 51px;
     width: 60px;
     
 }
+
 .week-headlines-image-box img:hover {
     cursor: pointer;
 }
+
 #week-headline-img-1 {
     object-position: 0px -6px;
 }
@@ -263,6 +298,7 @@ main {
 .week-headlines-title {
     font-size: 0.8em;
 }
+
 .week-headlines-title:hover {
     cursor: pointer;
 }
@@ -271,6 +307,7 @@ main {
     width: 100%;
     padding: 0.3em 0em;
 }
+
 #aside-blog-archive p {
     margin: 0.3em 0em;
     font-size: 1em;
@@ -278,6 +315,7 @@ main {
     color: #E07400;
     text-decoration: underline;
 }
+
 #aside-blog-archive p:hover {
     cursor: pointer;
 }
@@ -287,10 +325,10 @@ main {
     width: 100%;
     height: 75px;
 }
+
 .affiliates-image-box img:hover {
     cursor: pointer;
 }
-
 
 /*####### FOOTER #######*/
 
@@ -326,14 +364,17 @@ footer {
     justify-content: center;
     gap: 1em;
 }
+
 #footer-nav li {
     display: inline-block;
 }
+
 #footer-nav a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
 }
+
 #footer-nav a:hover {
     text-decoration: underline;
 }
